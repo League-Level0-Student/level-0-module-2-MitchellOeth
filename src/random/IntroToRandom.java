@@ -11,7 +11,8 @@ import java.util.Random;
 
 public class IntroToRandom {
 	public static void main(String[] args) {
-		int r = 0;
+	Random rand = new Random();	
+int r = rand.nextInt(300)-222;
 		
 		//2. Now make r random. 
 		//   Create an object of the Random class
